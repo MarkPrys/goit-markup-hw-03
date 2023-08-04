@@ -39,12 +39,12 @@
         <!-- Adress -->
         <address class="adress-main">
           <ul class="list">
-            <li class="contacts">
+            <li class="contacts-mail">
               <a class="link adress" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contacts">
+            <li class="contacts-tel">
               <a class="link adress" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -56,7 +56,7 @@
 
     <main>
       <!-- Section Effective Solution -->
-      <section class="main-info">
+      <section class="hero">
         <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
           <button class="button-order" type="button">Order Service</button>
@@ -64,10 +64,10 @@
       </section>
 
       <!--Section Our Benefits-->
-      <section>
+      <section class="benefits-section">
         <div class="container">
           <h2 hidden>Our Benefits</h2>
-          <ul class="list">
+          <ul class="list benefits">
             <li>
               <h3 class="subhead">Strategy</h3>
               <p class="text">
@@ -101,10 +101,10 @@
       </section>
 
       <!-- Section What are we doing -->
-      <section>
+      <section class="offers-section">
         <div class="container">
           <h2 class="title-section">What are we doing</h2>
-          <ul class="list">
+          <ul class="list offers">
             <li>
               <img src="./images/img-1.jpg" alt="Analysis data" width="360" />
             </li>
@@ -121,8 +121,9 @@
       <!--Section Our Team -->
       <section class="section-four">
         <div class="container">
-          <h2 class="title-section">Our Team</h2>
-          <ul class="list">
+          <div id="ourteam">
+          <h2 class="title-section">Our Team</h2></div>
+          <ul class="list team">
             <li class="team-frame">
               <img
                 src="./images/prod-des.jpg"
@@ -131,7 +132,7 @@
                 height="260"
               />
               <h3 class="team-name">Mark Guerrero</h3>
-              <p class="text">Product Designer</p>
+              <p class="text ocupation">Product Designer</p>
             </li>
             <li class="team-frame">
               <img
@@ -141,7 +142,7 @@
                 height="260"
               />
               <h3 class="team-name">Tom Ford</h3>
-              <p class="text">Frontend Developer</p>
+              <p class="text ocupation">Frontend Developer</p>
             </li>
             <li class="team-frame">
               <img
@@ -151,7 +152,7 @@
                 height="260"
               />
               <h3 class="team-name">Camila Garcia</h3>
-              <p class="text">Marketing</p>
+              <p class="text ocupation">Marketing</p>
             </li>
             <li class="team-frame">
               <img
@@ -161,7 +162,7 @@
                 height="260"
               />
               <h3 class="team-name">Daniel Wilson</h3>
-              <p class="text">UI Designer</p>
+              <p class="text ocupation">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -171,6 +172,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
+        <div class="logo-foot"></div>
         <a class="link link-logo" href="./index.html"
           >Web<span class="logo-footer">Studio</span></a
         >
