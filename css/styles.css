@@ -24,6 +24,10 @@ ul {
   text-decoration: none;
   margin: 0;
   padding: 0;
+
+
+  /* Header */
+
 }
 /*Logo*/
 .link-logo {
@@ -36,6 +40,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-left: 15px;
+  margin-right: 76px;
 }
 
 .link .logo-studio {
@@ -62,12 +67,16 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .header {
   padding-bottom: 24px;
-  padding-top: 16px;}
+  padding-top: 16px;
+}
+
+
+/* List */
 
 .list {
   list-style-type: none;
@@ -80,6 +89,11 @@ a {
   text-decoration: none;
 }
 
+.nav-list {
+gap: 40px; 
+padding: 24px, 0;
+}
+
 .list-link {
   color: var(--nav-color);
   font-size: 16px;
@@ -87,7 +101,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-left: 40px;
 }
 
 .list-link:hover,
@@ -111,6 +124,11 @@ a {
   margin-right: 0;
   padding-right: 15px;
 }
+
+.adress-list{
+  gap: 40px;
+}
+
 
 .adress {
   color: var(--main-grey-color);
