@@ -481,10 +481,32 @@ ul.list.benefits {
 }
 
 /* What We Are Doing */
+
+.offers-section {
+  padding-bottom: 120px;
+
+}
+
 ul.list.offers {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+}
+
+
+.title-offers {
+  color: var(--nav-color);
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.offers-item {
+  width: calc((100% - 48px) / 3);
 }
 
 /* Our Team */
