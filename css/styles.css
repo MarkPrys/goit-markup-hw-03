@@ -385,32 +385,6 @@ h2 {
   padding-bottom: 120px;
 }
 
-/* Section 4 */
-.section-four {
-  display: flex;
-  background-color: var(--second-white-color);
-  height: 732px;
-  flex-shrink: 0;
-  padding-bottom: 120px;
-}
-
-.team-frame {
-  background-color: var(--main-white-color);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-.team-name {
-  color: var(--nav-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 0;
-  padding-bottom: 8px;
-  padding-top: 32px;
-}
 
 /* Containers */
 .container {
@@ -519,5 +493,50 @@ ul.list.team {
 .text.ocupation {
   text-align: center;
   margin-top: 0;
-  padding-bottom: 32px;
+}
+
+.section-four {
+  display: flex;
+  background-color: var(--second-white-color);
+  height: 612px;
+  flex-shrink: 0;
+  padding: 120px 0;
+}
+
+.team-frame {
+  width: calc((100% - 72px) / 4);
+  background-color: var(--main-white-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-name {
+  color: var(--nav-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+
+.title-team {
+  color: var(--nav-color);
+  text-align: center;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.employee {
+  padding: 32px;
+
+
 }
