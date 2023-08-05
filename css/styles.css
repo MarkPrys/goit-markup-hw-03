@@ -277,6 +277,12 @@ h2 {
 }
 
 
+/* Portfolio */
+
+.portfolio-nav {
+
+}
+
 /* Buttons links portfolio */
 .button-all {
   color: var(--logo-button-color);
@@ -312,7 +318,7 @@ h2 {
   align-items: center;
   gap: 24px;
   margin-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 /* Buttons links portfolio Hover */
@@ -343,6 +349,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 /* Portfolio 9 blocks */
