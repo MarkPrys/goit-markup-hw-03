@@ -127,12 +127,14 @@ a {
 }
 
 .adress {
+  display: inline-block;
   color: var(--main-grey-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .adress:hover,
@@ -280,7 +282,8 @@ h2 {
 /* Portfolio */
 
 .portfolio-nav {
-
+padding-top: 96px;
+padding-bottom: 120px;
 }
 
 /* Buttons links portfolio */
@@ -360,10 +363,7 @@ h2 {
   text-align: left;
   letter-spacing: 0.02em;
   color: var(--nav-color);
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 16px;
-  padding-top: 16px;
+  margin-bottom: 8px;
 }
 
 .service-text {
@@ -382,11 +382,15 @@ h2 {
 }
 
 .features-item {
+  width: calc((100% - 48px) / 3);
+
 }
 
 .service {
   border: 1px solid #e7e9fc;
+  border-top: none;
   background: var(--main-white-color);
+  padding: 32px 16px;
 }
 
 .main-blocks {
